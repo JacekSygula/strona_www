@@ -11,6 +11,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
 
 h1 {
@@ -24,9 +25,18 @@ h1 {
 }
 
 @media screen and (min-width: 768px) {
+    h1 {
+        font-size: 70px;
+    }
+}
 
-h1 {
-    font-size: 70px;
-}
-}
-    
+button {
+    background-color: rgba(165, 42, 42, 0.582);
+    border: 1px solid #fff;
+    color: #fff;
+    width: 120px;
+    text-align: center;
+    border-radius: 6px;
+    padding: 20px;
+}   
+ 
